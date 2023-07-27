@@ -8,6 +8,10 @@ public class Email {
    private int  mailboxCapacity;
   private  String alternateEmail;
    //constructor to recieve firt name and last name
+   public Email(String firstName, String lastName){
+    this.firstName = firstName;
+    this.lastName = lastName;
+   }
    //ask fordepartment
    //generate randompassword
    //set the mailbox capacity
